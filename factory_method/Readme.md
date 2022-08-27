@@ -3,6 +3,7 @@
 Este padrão sugere que criação de objetos seja através de chamadas de um método fábrica, em vez do uso do operador *new* de forma direta.s
 
 ![Drag Racing](img/factory_method.png)
+(Abstract Factory - Imagem retirada do livro *Mergulhando nos padrões de projeto Alexander Shvets* - https://refactoring.guru/pt-br/design-patterns/book)
 
 O Factory Method separa o código de construção do produto
 do código cliente.
