@@ -1,6 +1,6 @@
-package bulder.builders;
+package builder.builders;
 
-import bulder.product.House;
+import builder.product.House;
 
 public class WoodHouseBuilder implements HouseBuilder {
 

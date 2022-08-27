@@ -1,10 +1,10 @@
-package bulder;
+package builder;
 
-import bulder.builders.HouseBuilder;
-import bulder.builders.StoneHouseBuilder;
-import bulder.builders.WoodHouseBuilder;
-import bulder.director.Director;
-import bulder.product.House;
+import builder.builders.HouseBuilder;
+import builder.builders.StoneHouseBuilder;
+import builder.builders.WoodHouseBuilder;
+import builder.director.Director;
+import builder.product.House;
 
 public class Main {
     public static void main(String[] args) {
