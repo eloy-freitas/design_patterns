@@ -7,6 +7,7 @@ O objetivo principal é atribuir a responsabilidade de criação de um objeto co
 Esse tipo de padrão organiza a criação em uma série de etapas impedindo que o cliente tenha acesso ao objeto enquanto o builder estiver construindo.
 
 ![Builder](img/builder.png)
+
 (Builder - Imagem retirada do livro *Mergulhando nos padrões de projeto Alexander Shvets* - https://refactoring.guru/pt-br/design-patterns/book)
 
 ### Diretor
