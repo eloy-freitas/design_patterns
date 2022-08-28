@@ -2,7 +2,7 @@
 
 Padrão de projeto que garante que uma classe tenha apenas uma instância, provendo um ponto de acesso global para o código.
 
-Ele quebra o princípio de responsabilidade para resolver dois problemas: 
+Ele quebra o princípio de responsabilidade única para resolver dois problemas: 
 
 - Garantir que uma classe tenha uma única instância, com objetivo de controlar o acesso compartilhado de algum recurso;
 
