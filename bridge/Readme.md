@@ -7,12 +7,17 @@ Essa padrão busca resover um problema muito comum de herança de classes, onde 
 Dessa forma, o Bridge  resolve esse problema trocando herança por composição, ou seja, os objetos que definem o estado e o comportamento da classe original são isolados.
 
 ### Exemplo
+
 Antes:
+
 ![Problema Bridge](img/problema_bridge.png)
+
 (Exemplo de problema - Imagem retirada do livro *Mergulhando nos padrões de projeto Alexander Shvets* - https://refactoring.guru/pt-br/design-patterns/book)
 
 Depois:
+
 ![Solução Bridge](img/solucao.png)
+
 (Exemplo de solução com o Bridge - Imagem retirada do livro *Mergulhando nos padrões de projeto Alexander Shvets* - https://refactoring.guru/pt-br/design-patterns/book)
 
 A classe original atribui as tarefas para os objetos relacionados, em vez de fazer tudo por conta propria.
@@ -20,6 +25,7 @@ A classe original atribui as tarefas para os objetos relacionados, em vez de faz
 Dessa forma, é mais fácil trocar a implementação da hierarquia durante a execução.
 
 ![Bridge](img/bridge.png)
+
 (Bridge - Imagem retirada do livro *Mergulhando nos padrões de projeto Alexander Shvets* - https://refactoring.guru/pt-br/design-patterns/book)
 
 
