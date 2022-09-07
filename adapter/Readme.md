@@ -6,6 +6,8 @@ O adapter é um objeto especial que traduz a interface de um componente para que
 
 ![Adapter](img/adapter.png)
 
+(Adapter - Imagem retirada do livro *Mergulhando nos padrões de projeto Alexander Shvets* - https://refactoring.guru/pt-br/design-patterns/book)
+
 - O cliente possui uma interface que descreve como outras classes devem seguir para se comunicarem.
 
 - O serviço é geralmente é um código legado ou um serviço de terceiros incompatível com o código do cliente.
